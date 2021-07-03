@@ -1,0 +1,28 @@
+https://sourceforge.net/projects/pgsqlportable/
+
+
+
+This is a zip to automatically run postgresql for Windows. To run must:
+1) Unzip
+2) Run the file "Iniciar servicio sin usuario.bat" found in the pgsql directory within the folder you just unzipped.
+3) Optional. To manage and / or develop in DB Pgadmin3.bat you can run the file
+4) Optional. To stop and / or restart the server correctly use file "Detener servicio sin usuario.bat" or "Iniciar servicio sin usuario.bat" depending on the case.
+5) To create a new cluster of postgresql, use "Crear Cluster.bat" where prompted the DATA folder path and password for the user postgres.
+6) To record the postgresql service, run "Registrar servicio.bat" and to remove use "Quitar servicio.bat". Works on 32 and 64 bits.
+
+Now, Linux option (archive .tar.gz) . Postgresql Linux portable 9.2
+
+Please read the Wiki and the tickets.
+Please use the tickets for answer your bugs.
+
+Usuario: postgres Clave:123
+
+Add new version 9.6 and support to PgAdmin III and 4.
+Features
+
+    portable
+    lite
+    quickly developement
+    postgresql
+
+

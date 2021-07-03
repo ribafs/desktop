@@ -1,0 +1,28 @@
+cd pgsql9.6
+bin/initdb ./databr
+
+bin/pg_ctl -D ./databr -l logfile start
+
+bin/psql -d postgres
+
+CREATE ROLE postgres WITH LOGIN SUPERUSER PASSWORD 'postgres';
+
+\du
+
+\q
+
+bin/psql -U postgres -d postgres
+
+bin/psql --help
+
+bin/psql -U postgres -d postgres
+
+\l
+
+phpdesktop | ribafs | UTF8     | pt_BR.UTF-8 | pt_BR.UTF-8 |
+
+\c phpdesktop
+
+bin/psql -U ribafs -d postgres
+
+

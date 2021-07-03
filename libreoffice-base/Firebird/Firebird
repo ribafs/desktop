@@ -1,0 +1,55 @@
+https://www.devart.com/odbc/firebird/docs/openoffice.htm
+
+https://www.devart.com/odbc/firebird/docs/linux.htm
+
+https://ask.libreoffice.org/en/question/260183/base-connecting-to-firebird-database-wo-odbc/
+
+https://ask.libreoffice.org/en/question/185382/firebird-database-alter-column-datatype-using-sql-after-import-from-calc-spreadsheet-errors/    
+
+http://firebirdsql.org/en/firebird-3-0/#Linux_AMD64
+
+firebirdsql:oo://localhost:3050//home/dave/Firebird/employee.fdb
+
+Finalmente eu consegui
+eu tinha que passar o endereço completo da onde esta o banco.
+bom fico assim:
+
+public Conexao(String banco)
+    {   try
+        {
+            Class.forName("org.firebirdsql.jdbc.FBDriver");
+            url = "jdbc:firebirdsql://"+banco;
+           
+            connect = DriverManager.getConnection( "jdbc:firebirdsql:192.168.1.2/3050:D:\\Meus Documentos\\NetBeansProjects\\Auto Peças - Carol\\Archives\\DB\\DBAUTOPECAS.FDB"  , "SYSDBA", "masterkey" );
+        }
+        catch ( ClassNotFoundException cnfex )
+        { erro="Falha ao ler o driver JDBC\n"+cnfex.toString()+" \n\n\n"+url; }
+        catch ( SQLException sqlex )
+        { erro="Impossível conectar com a base de dados\n"+sqlex.toString()+" \n\n\n"+url; }
+        catch ( Exception ex )
+        { erro="Outro erro\n"+ex.toString()+" \n\n\n"+url; }
+    }
+
+também tiver que informar porta que iria ser feita a conexão
+
+
+sudo apt install firebird2-super-server firebird2-utils-super firebird2-dev
+
+https://www.vivaolinux.com.br/artigos/impressora.php?codigo=7364
+
+sudo add-apt-repository ppa:mapopa/firebird3.0
+
+sudo apt-get update
+
+sudo apt-get install firebird3.0-server
+
+sudo dpkg-reconfigure firebird3.0-server
+
+console
+sudo isql-fb
+
+https://www.edivaldobrito.com.br/como-instalar-o-banco-de-dados-firebird-no-ubuntu-e-derivados/
+
+https://firebirdsql.org/en/jdbc-driver/
+https://www.firebirdsql.org/en/odbc-driver/
+

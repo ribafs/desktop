@@ -1,0 +1,106 @@
+Exportar dados do Base
+
+Copie uma tabela do Base em uma nova planilha do Calc e em seguida, salve ou exporte os dados para qualquer formato de arquivo suportado pelo Calc.
+
+    Abra o arquivo do banco de dados que contém a tabela de banco de dados a ser exportada. Clique em Tabelas para exibir as tabelas ou clique em Consultas para exibir as consultas.
+
+    Escolha Arquivo - Novo - Planilha.
+
+    Na janela do Base, clique com o botão direito do mouse no nome da tabela a ser exportada. Escolha Copiar no menu de contexto.
+
+    Clique na célula A1 na nova janela Calc e em seguida, escolha Editar - Colar.
+
+Agora você pode salvar ou exportar os dados para vários tipos de arquivos.
+Importar dados para o Base
+Ícone Nota
+
+Você pode importar arquivos de texto, planilhas e o catálogo de endereços do sistema no modo somente leitura.
+
+Ícone Nota
+
+Quando você importa dados de um texto ou de uma planilha, a primeira linha do arquivo deve conter informações de cabeçalho. A segunda linha do arquivo será a primeira linha de dados. O formato para cada campo da segunda linha determina o formato para toda a coluna. Qualquer informação de formatação da planilha será perdida ao importar para o Base.
+
+Ícone Nota
+
+Por exemplo, para garantir que a primeira coluna seja de texto, você deve se assegurar que o primeiro campo da primeira linha de dados seja texto. Se um campo na primeira linha de dados contém um número, toda a coluna será considerada como números e somente números. Nenhum texto será mostrado naquela coluna.
+
+    Abra um arquivo Base com o tipo de banco de dados desejado.
+
+    Crie um novo arquivo Base usando o Assistente de banco de dados ou abra qualquer arquivo Base existente que não seja somente leitura.
+
+    Abra o arquivo Calc que contém os dados a serem importados para o Base. Você pode abrir um arquivo *.dbf do dBASE ou muitos outros tipos de arquivos.
+
+    Selecione os dados a serem copiados para o Base.
+
+    Você pode inserir uma referência de intervalo como por exemplo A1:X500 na caixa Nome, se não desejar efetuar rolagem.
+
+    Se copiar uma planilha dBASE, inclua a linha superior que contém os dados do cabeçalho.
+
+    Escolha Editar - Copiar.
+
+    Na janela do Base, clique em Tabelas para exibir as tabelas.
+
+    Na janela do Base, escolha Editar - Colar.
+
+    A caixa de diálogo Copiar tabela se abrirá. A maioria dos bancos de dados precisa de uma chave primária, de modo que talvez seja necessário marcar a caixa Criar chave primária.
+
+Ícone Dica
+
+Em sistemas Windows, você pode também arrastar e soltar em vez de copiar e colar. Para banco de dados registrados, você pode abrir o navegador de fonte de dados (pressione as teclas Ctrl + Shift + F4) em vez de abrir a janela do Base.
+
+https://help.libreoffice.org/latest/pt-BR/text/shared/guide/data_im_export.html?&DbPAR=BASE&System=UNIX
+
+Importar e exportar arquivos dBASE
+
+Você pode abrir e salvar dados que estejam no formato de arquivo dBASE (extensão de arquivo *.dbf) no LibreOffice Base ou em um documento de planilha. No LibreOffice Base, um banco de dados dBASE é uma pasta que contém arquivos com a extensão .dbf. Cada arquivo corresponde a uma tabela no banco de dados. As fórmulas e a formatação serão perdidas ao abrir e salvar um arquivo dBASE pelo LibreOffice.
+Para importar um arquivo dBASE para um documento de planilha
+
+    Escolha Arquivo - Abrir.
+
+    Localize o arquivo *.dbf a importar.
+
+    Clique em Abrir.
+
+    A caixa de diálogo Importar arquivos dBASE abrirá.
+
+    Clique em OK.
+
+    O arquivo dBASE abre como um novo documento de planilha do Calc.
+    Ícone Aviso
+
+    Se desejar salvar o documento de planilha como um arquivo dBASE, não altere ou exclua a primeira linha do arquivo importado, pois ela contém informações necessárias a um banco de dados dBASE.
+
+Para importar um arquivo dBASE para uma tabela de banco de dados
+
+Uma tabela de banco de dados LibreOffice Base na verdade é um vínculo para um banco de dados existente.
+
+    Escolha Arquivo - Novo - Banco de dados.
+
+    Na caixa Nome do arquivo da caixa de diálogo Salvar como, digite um nome para o banco de dados.
+
+    Clique em Salvar.
+
+    Na caixa Tipo de banco de dados da caixa de diálogo Propriedades do banco de dados, selecione "dBASE".
+
+    Clique em Avançar.
+
+    Clique em Procurar.
+
+    Localize o diretório que contém o arquivo dBASE e clique em OK.
+
+    Clique em Criar.
+
+Para exportar uma planilha como um arquivo dBASE
+
+    Escolha Arquivo - Salvar como.
+
+    Na caixa Formato do arquivo, selecione "Arquivo dBASE".
+
+    Na caixa Nome do arquivo, digite um nome para o arquivo dBASE.
+
+    Clique em Salvar.
+
+Ícone Nota
+
+Somente os dados da planilha atual são exportados.
+

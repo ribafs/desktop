@@ -1,0 +1,7 @@
+GSEC - Utilitário do Arquivo de senhas do Firebird
+
+gsec -user SYSDBA -password SYSDBA
+
+Sair - quit
+
+

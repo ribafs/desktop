@@ -1,0 +1,6 @@
+PDO_Connect('mysql:host=localhost;dbname=testdb;charset=UTF-8', 'username','password');
+
+<?php 
+
+$PDO = new PDO('sqlite:/var/www/html/cad_clients.db');
+

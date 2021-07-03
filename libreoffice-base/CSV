@@ -1,0 +1,58 @@
+Abrir e salvar arquivos Texto CSV
+
+Arquivos do tipo valores separados por vírgula (CSV) são arquivos de texto que podem ser utilizados para trocar dados com um banco de dados ou uma planilha entre aplicações. Cada linha de um arquivo Texto CSV representa um registro no banco de dados ou uma linha em uma planilha. Cada campo de um registro de banco de dados ou de uma célula em uma linha da planilha é normalmente separado por uma vírgula. Entretanto, é possível utilizar outros caracteres para delimitar um campo, como um caractere de tabulação.
+
+Se o conteúdo de um campo ou de uma célula contém uma vírgula, o conteúdo deverá estar entre aspas simples (') ou duplas (").
+Para abrir um arquivo de texto CSV no Calc
+
+    Escolha Arquivo - Abrir.
+
+    Localize o arquivo CSV que deseja abrir.
+
+    Selecione o arquivo com a extensão *.csv.
+
+    Se o arquivo CSV tiver outra extensão, selecione-o e, em seguida, selecione "Texto CSV" na caixa Filtro.
+
+    Clique em Abrir.
+
+    A caixa de diálogo Importação de texto abrirá.
+
+    Especifique as opções para dividir o texto em colunas no arquivo.
+
+    É possível visualizar o leiaute dos dados importados na parte de baixo da caixa de diálogo Importação de texto.
+
+    Clique com o botão direito do mouse em uma coluna na visualização para definir o formato ou para ocultar a coluna.
+    Ícone Dica
+
+    Marque a caixa do delimitador de texto que combina com o caractere utilizado como delimitador no arquivo. Caso não esteja relacionado na lista, digite o caractere na caixa de entrada.
+
+    Clique em OK.
+
+Para salvar uma planilha como um arquivo Texto CSV
+note
+
+Quando você exporta um documento de planilha no formato CSV, somente os dados na planilha atual são salvos. Todas as demais informações, inclusive fórmulas e formatação, serão perdidas.
+
+    Abra a planilha do Calc que você deseja salvar como um arquivo Texto CSV.
+    Ícone Nota
+
+    Somente a planilha atual pode ser exportada.
+
+    Escolha Arquivo - Salvar como.
+
+    Na caixa Nome do arquivo, digite um nome para seu arquivo.
+
+    Na caixa Filtro, selecione "Texto CSV".
+
+    (Opcional) Defina as opções de campo para o arquivo Texto CSV.
+
+    Selecione Editar configurações do filtro.
+
+    Na caixa de diálogo Exportar arquivos de texto, selecione as opções desejadas.
+
+    Clique em OK.
+
+    Clique em Salvar.
+
+https://help.libreoffice.org/latest/pt-BR/text/scalc/guide/csv_files.html?&DbPAR=BASE&System=UNIX
+

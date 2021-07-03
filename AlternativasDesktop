@@ -1,0 +1,6 @@
+Alternativas desktop
+
+- PHPDesktop (com limitações, não roda mysql nem pgsql, somente sqlite e outros do js/html5)
+- YAD
+- PHP com Apache rodando como sudo sem senha
+

@@ -1,0 +1,5 @@
+PHP web no desktop
+
+Adicionando o www-data no grupo sudo usando sem senha (/etc/sudoers)
+
+Assim o PHP poderá executar comandos e scripts com todos os poderes

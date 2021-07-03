@@ -1,0 +1,21 @@
+URL
+
+oracle:thin:@hostname:port:database_name
+
+mysql://hostname:port/database_name
+
+Classe do driver JDBC
+
+Ferramentas - Opções - LibreOffice - Avançado, e clique no botão Caminho da classe. Após adicionar o caminho da classe, reinicie o LibreOffice.
+
+https://firebirdsql.org/en/jdbc-driver/
+
+Driver class is:
+
+org.firebirdsql.jdbc.FBDriver
+
+Connection string is:
+
+firebirdsql:oo://localhost//var/lib/firebird/3.0/data/YOUR_DATABASE.fdb
+
+

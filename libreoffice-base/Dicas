@@ -1,0 +1,18 @@
+O banco de dados deve existir na forma de um serviço.
+
+Para isso você tem de criar um SGBD (Sistema gerenciador de banco de dados) através de um banco de dados numa maquina que atuará como servidor. Os bancos de dados livres mais comuns são MariaDB, Firebird ou Postgresql.
+
+Escolha uma máquina e crie o serviço de banco de dados, acessível pela rede de todas as maquinas do consultório.
+
+Crie nas maquinas-cliente uma fonte de dados do LibreOffice Base que acesse o banco de dados da sua máquina servidor. Isso é feito criando um novo arquivo do base e configurando a fonte de dados pelo assistente. Escolha o tipo de BD, o driver (JDBC,ODBC, etc..), a URL do servidor, login e senha, etc...
+
+Reconheço que essa montagem não é para iniciantes. Requer conhecimentos avançados.
+
+Uma alternativa bem mais pobre e sujeita a erros é compartilhar uma planilha na rede.
+https://ask.libreoffice.org/pt-br/question/25487/como-fazer-dois-banco-de-dados-no-libreoffice-basese-comunicar-um-envia-dados-e-o-outro-recebe/
+
+Criando Aplicativos
+
+https://www.vivaolinux.com.br/artigos/impressora.php?codigo=9078
+
+
