@@ -3,7 +3,7 @@
 	$db   = 'testes'; //sqlite não usa
 	$user = 'root'; //sqlite não usa
 	$pass = ''; //sqlite não usa
-	$sgbd = 'mysql';// sqlite, mysql, pgsql
+	$sgbd = 'sqlite';// sqlite, mysql, pgsql
 	$port = 3306; // 3306, 5432, sqlite não usa
 
 	$regsPerPage = 23; // Registros por página
