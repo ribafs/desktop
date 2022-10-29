@@ -1,10 +1,14 @@
 # CRUD com PHP PDO e BootStrap
 
-Com suporte ao SQLite, ao MySQL e ao PostgreSQL
+Com suporte ao SQLite
 
-Basta que crie o banco no MySQL ou no PostgreSQL (o do sqlite já está criado em db/sqlite3.db), importe o respectivo script da apsta db e altere as informações em connection.
+O banco do sqlite já está criado em db/sqlite3.db
 
-Então chame o index em seu diretório web.
+Então chame o index com
+
+phpdesktop
+ribafs
+crud
 
 ## Original
 
